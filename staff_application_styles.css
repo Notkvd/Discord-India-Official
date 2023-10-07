@@ -1,0 +1,83 @@
+
+
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #7289da;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Main content container */
+.staff-application-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #7289da;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5468a9;
+}
+
+/* Footer styles */
+.footer-content {
+    text-align: center;
+    padding: 10px;
+    background-color: #7289da;
+    color: white;
+}

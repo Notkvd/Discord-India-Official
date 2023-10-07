@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #7289DA; /* Discord's primary color */
+    --background-color: #36393f; /* Dark background color */
+    --text-color: #ffffff; /* Light text color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white; /* Header text color */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white; /* Header text color */
+}
+
+/* Enhanced "Join" Button Style */
+.join-button {
+    background-color: #546e91; /* A slightly darker blue */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.join-button:hover {
+    background-color: #405971; /* Darken the color on hover */
+}
+
+/* Main Content Section Styles */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.feature:hover {
+    background-color: #333; /* Darken the background on hover */
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--primary-color); /* Section header color */
+}
+
+.feature p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Section Buttons */
+.section-button {
+    display: block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+.section-button:hover {
+    background-color: #405971; /* Darken the color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}

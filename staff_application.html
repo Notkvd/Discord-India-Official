@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Application - Discord India</title>
+    <link rel="stylesheet" href="staff_application_styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Staff Application</h1>
+            <p>Apply to Join Our Team</p>
+        </div>
+    </header>
+    <section class="staff-application-content">
+        <form action="submit_application.php" method="POST">
+            <label for="discord-username">1/19: Discord Username and Numbers:</label>
+            <input type="text" id="discord-username" name="discord-username" required>
+            
+            <label for="age">2/19: Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="server-membership">3/19: How long have you been a member of this server, and how active are you?</label>
+            <textarea id="server-membership" name="server-membership" rows="4" required></textarea>
+
+            <label for="previous-staff">4/19: Have you ever been a staff member on another Discord server? If so, please provide details.</label>
+            <textarea id="previous-staff" name="previous-staff" rows="4" required></textarea>
+
+            <label for="interest-reason">5/19: Why are you interested in becoming a staff member on this server?</label>
+            <textarea id="interest-reason" name="interest-reason" rows="4" required></textarea>
+
+            <label for="skills-qualities">6/19: What specific skills or qualities do you believe make you a good fit for this role?</label>
+            <textarea id="skills-qualities" name="skills-qualities" rows="4" required></textarea>
+
+            <label for="server-rules">7/19: Are you familiar with the server's rules and guidelines? If so, please briefly explain them.</label>
+            <textarea id="server-rules" name="server-rules" rows="4" required></textarea>
+
+            <label for="handle-violations">8/19: How would you handle a situation where a user is repeatedly violating the server rules?</label>
+            <textarea id="handle-violations" name="handle-violations" rows="4" required></textarea>
+
+            <label for="mediate-conflict">9/19: Can you describe a time when you had to mediate a conflict between two users? How did you handle it?</label>
+            <textarea id="mediate-conflict" name="mediate-conflict" rows="4" required></textarea>
+
+            <label for="time-zone">10/19: What time zone are you in, and what hours are you generally available to moderate the server?</label>
+            <input type="text" id="time-zone" name="time-zone" required>
+
+            <label for="experience-discord">11/19: Do you have any experience with Discord bots, moderation tools, or server management?</label>
+            <textarea id="experience-discord" name="experience-discord" rows="4" required></textarea>
+
+            <label for="moderation-bot">12/19: Are you comfortable with using and enforcing the server's moderation bot, if applicable?</label>
+            <textarea id="moderation-bot" name="moderation-bot" rows="4" required></textarea>
+
+            <label for="handle-spam-content">13/19: How would you respond to a situation where a user is spamming or posting inappropriate content in the server?</label>
+            <textarea id="handle-spam-content" name="handle-spam-content" rows="4" required></textarea>
+
+            <label for="improvement-ideas">14/19: What ideas do you have for improving the server or enhancing the community experience?</label>
+            <textarea id="improvement-ideas" name="improvement-ideas" rows="4" required></textarea>
+
+            <label for="commitment-hours">15/19: Are you able to commit a certain amount of time per week to your staff duties?</label>
+            <input type="text" id="commitment-hours" name="commitment-hours" required>
+
+            <label for="past-violations">16/19: Have you ever been banned or received warnings on this server or any other servers? If so, please explain.</label>
+            <textarea id="past-violations" name="past-violations" rows="4" required></textarea>
+
+            <label for="voice-communication">17/19: Are you comfortable with voice communication on platforms such as Discord, in case staff meetings or discussions are needed?</label>
+            <textarea id="voice-communication" name="voice-communication" rows="4" required></textarea>
+
+            <label for="additional-skills">18/19: Do you have any additional skills or talents that you believe would benefit the server?</label>
+            <textarea id="additional-skills" name="additional-skills" rows="4" required></textarea>
+
+            <label for="stress-criticism">19/19: How do you handle stress and criticism, especially in a role that involves enforcing rules and dealing with difficult situations?</label>
+            <textarea id="stress-criticism" name="stress-criticism" rows="4" required></textarea>
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Discord India</p>
+        </div>
+    </footer>
+</body>
+</html>

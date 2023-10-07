@@ -1,0 +1,62 @@
+/* Styles for the Support page */
+
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #7289da;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Main content container */
+.support-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Heading styles */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Ordered list styles */
+ol {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Footer styles */
+.footer-content {
+    text-align: center;
+    padding: 10px;
+    background-color: #7289da;
+    color: white;
+}
